@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+}
+
+
+/* navbar */
+
+nav{
+    background-color: #111827;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 18px 45px;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav ul li a:hover{
+    color: #38bdf8;
+}
+
+
+/* hero section */
+
+.hero{
+    height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background: linear-gradient(to right, #001f4d, #0077cc);
+
+    color: white;
+
+    padding: 20px;
+}
+
+.hero-content{
+    max-width: 650px;
+}
+
+.small-text{
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.hero-content h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-para{
+    line-height: 1.7;
+    margin-bottom: 28px;
+    font-size: 17px;
+}
+
+.hero-content a{
+    display: inline-block;
+
+    text-decoration: none;
+
+    background-color: white;
+    color: #001f4d;
+
+    padding: 12px 24px;
+
+    border-radius: 25px;
+
+    font-weight: 500;
+}
+
+.hero-content a:hover{
+    background-color: #001739;
+    color: white;
+}
+/* common sections */
+
+section{
+    padding: 70px 8%;
+}
+
+section h2{
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 32px;
+}
+
+
+/* skills */
+
+.skills-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.skill-card{
+    background-color: white;
+
+    padding: 14px 22px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+
+/* projects */
+
+.projects-wrapper{
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+    gap: 20px;
+}
+
+.project-box{
+    background-color: white;
+
+    padding: 22px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.project-box h3{
+    margin-bottom: 12px;
+}
+
+.project-box p{
+    line-height: 1.7;
+}
+
+
+/* about */
+
+.about-section p{
+    max-width: 700px;
+
+    margin: auto;
+
+    text-align: center;
+
+    line-height: 1.8;
+}
