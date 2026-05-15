@@ -41,7 +41,11 @@ nav ul li a{
 }
 
 nav ul li a:hover{
+<<<<<<< HEAD
     color: #5fc3ee;
+=======
+    color: #38bdf8;
+>>>>>>> b8ec9ea30f82f45245416ad02b724a5f63929b2e
 }
 
 
@@ -102,6 +106,7 @@ nav ul li a:hover{
     background-color: #001739;
     color: white;
 }
+<<<<<<< HEAD
 /* common sections */
 
 section{
@@ -175,3 +180,5 @@ section h2{
 
     line-height: 1.8;
 }
+=======
+>>>>>>> b8ec9ea30f82f45245416ad02b724a5f63929b2e
